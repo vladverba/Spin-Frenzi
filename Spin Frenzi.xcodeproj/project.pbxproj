@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36851411DEE87A900F407C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36851401DEE87A900F407C5 /* AppDelegate.swift */; };
+		D36851471DEE87A900F407C5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36851461DEE87A900F407C5 /* GameScene.swift */; };
+		D36851491DEE87A900F407C5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36851481DEE87A900F407C5 /* GameViewController.swift */; };
+		D368514C1DEE87A900F407C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D368514A1DEE87A900F407C5 /* Main.storyboard */; };
+		D36851511DEE87A900F407C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D368514F1DEE87A900F407C5 /* LaunchScreen.storyboard */; };
+		E0204E291EBD1B9500541962 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0204E281EBD1B9500541962 /* GoogleService-Info.plist */; };
+		E0430F541E82FD55008B328E /* blueButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0430F531E82FD55008B328E /* blueButton.jpg */; };
+		E04BA9161ED29F840060B309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BA9151ED29F840060B309 /* UIKit.framework */; };
+		E04BA9181ED2ACED0060B309 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BA9171ED2ACED0060B309 /* Chartboost.framework */; };
+		E04BA91A1ED2AD370060B309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BA9191ED2AD370060B309 /* Foundation.framework */; };
+		E04BA91D1ED4C27D0060B309 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E04BA91C1ED4C27D0060B309 /* 3.png */; };
+		E04BA91F1ED5167B0060B309 /* Continue Playing.png in Resources */ = {isa = PBXBuildFile; fileRef = E04BA91E1ED5167B0060B309 /* Continue Playing.png */; };
+		E0626C9D1E941581006BDFB5 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0626C9C1E941581006BDFB5 /* MainMenu.swift */; };
+		E0626CAA1E94B43E006BDFB5 /* Untitled2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CA71E94B43E006BDFB5 /* Untitled2.png */; };
+		E0626CAB1E94B43E006BDFB5 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CA81E94B43E006BDFB5 /* Untitled.png */; };
+		E0626CAD1E94B585006BDFB5 /* Untitled3.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CAC1E94B585006BDFB5 /* Untitled3.png */; };
+		E0626CAF1E954FCD006BDFB5 /* GameSceneMode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0626CAE1E954FCD006BDFB5 /* GameSceneMode3.swift */; };
+		E0626CB11E954FE7006BDFB5 /* GameOverSceneMode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0626CB01E954FE7006BDFB5 /* GameOverSceneMode3.swift */; };
+		E0626CB51E969D85006BDFB5 /* OtherAppsColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CB21E969D85006BDFB5 /* OtherAppsColor.png */; };
+		E0626CB61E969D85006BDFB5 /* RateUsColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CB31E969D85006BDFB5 /* RateUsColor.png */; };
+		E0626CB71E969D85006BDFB5 /* ShareUsColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CB41E969D85006BDFB5 /* ShareUsColor.png */; };
+		E0626CB91E96C164006BDFB5 /* RateUsButtonGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CB81E96C164006BDFB5 /* RateUsButtonGameOver.png */; };
+		E0626CBB1E96C218006BDFB5 /* RestartColorGameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CBA1E96C218006BDFB5 /* RestartColorGameOver.png */; };
+		E0626CBD1E970A8F006BDFB5 /* RestartColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E0626CBC1E970A8F006BDFB5 /* RestartColor.png */; };
+		E06A16621ED1594300F929C4 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16611ED1594300F929C4 /* GoogleMobileAds.framework */; };
+		E06A16651ED15C3700F929C4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16641ED15C3700F929C4 /* AdSupport.framework */; };
+		E06A16671ED15C3F00F929C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16661ED15C3F00F929C4 /* AudioToolbox.framework */; };
+		E06A16691ED15C4900F929C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16681ED15C4900F929C4 /* AVFoundation.framework */; };
+		E06A166B1ED15C5100F929C4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A166A1ED15C5100F929C4 /* CoreTelephony.framework */; };
+		E06A166D1ED15C5A00F929C4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A166C1ED15C5A00F929C4 /* CoreMedia.framework */; };
+		E06A166F1ED15C6500F929C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A166E1ED15C6500F929C4 /* CoreGraphics.framework */; };
+		E06A16711ED15C6F00F929C4 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16701ED15C6F00F929C4 /* EventKitUI.framework */; };
+		E06A16731ED15C7900F929C4 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16721ED15C7900F929C4 /* EventKit.framework */; };
+		E06A16751ED15C8C00F929C4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16741ED15C8C00F929C4 /* MediaPlayer.framework */; };
+		E06A16771ED15C9800F929C4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16761ED15C9800F929C4 /* MessageUI.framework */; };
+		E06A16791ED15CA200F929C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A16781ED15CA200F929C4 /* StoreKit.framework */; };
+		E06A167B1ED15CAD00F929C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A167A1ED15CAD00F929C4 /* SystemConfiguration.framework */; };
+		E06AB7B41E85EF8500C76167 /* GameSceneMode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AB7B31E85EF8500C76167 /* GameSceneMode2.swift */; };
+		E06AB7B61E85F19F00C76167 /* GameOverSceneMode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AB7B51E85F19F00C76167 /* GameOverSceneMode2.swift */; };
+		E08A958E1EDA8E8400A44BBE /* Thickedy Quick.otf in Resources */ = {isa = PBXBuildFile; fileRef = E08A958D1EDA8E8400A44BBE /* Thickedy Quick.otf */; };
+		E0A3420A1E9EC44500DDD384 /* SpinFrenzi.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A342091E9EC44500DDD384 /* SpinFrenzi.png */; };
+		E0A3420C1E9EC63800DDD384 /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3420B1E9EC63800DDD384 /* Untitled-2.png */; };
+		E0A3420E1E9ED5D000DDD384 /* GoHome.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A3420D1E9ED5D000DDD384 /* GoHome.png */; };
+		E0D474D51E81FCFE00B9BA8C /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D474D41E81FCFE00B9BA8C /* GameOverScene.swift */; };
+		E0D887781EE134AE00F61BCD /* CornerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D887771EE134AE00F61BCD /* CornerButton.png */; };
+		E0E66B901EB7CBA600B00A87 /* popspinfrenzi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0E66B8F1EB7CBA600B00A87 /* popspinfrenzi.wav */; };
+		E0E66B941EB7D08800B00A87 /* spinfrenzigameoversound.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0E66B931EB7D08800B00A87 /* spinfrenzigameoversound.wav */; };
+		E0E66B961EB7D8F800B00A87 /* Hackbeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0E66B951EB7D8F800B00A87 /* Hackbeat.wav */; };
+		E0E66B991EB9805C00B00A87 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E0E66B971EB9805C00B00A87 /* AppIcon.appiconset */; };
+		E0E66B9A1EB9805C00B00A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E66B981EB9805C00B00A87 /* Assets.xcassets */; };
+		E0EC81221EB776CA003E2825 /* spinfrenzipop.wav in Resources */ = {isa = PBXBuildFile; fileRef = E0EC81211EB776CA003E2825 /* spinfrenzipop.wav */; };
+		E0EE6F7F1EA1306D00FCA4C6 /* Confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EE6F7E1EA1306D00FCA4C6 /* Confetti.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D368513D1DEE87A900F407C5 /* Spin Frenzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spin Frenzi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36851401DEE87A900F407C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36851461DEE87A900F407C5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D36851481DEE87A900F407C5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D368514B1DEE87A900F407C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36851501DEE87A900F407C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36851521DEE87A900F407C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0204E281EBD1B9500541962 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0430F531E82FD55008B328E /* blueButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueButton.jpg; sourceTree = "<group>"; };
+		E04BA9151ED29F840060B309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E04BA9171ED2ACED0060B309 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		E04BA9191ED2AD370060B309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E04BA91B1ED2ADFD0060B309 /* Spin Frenzi-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Spin Frenzi-Bridging-Header.h"; sourceTree = "<group>"; };
+		E04BA91C1ED4C27D0060B309 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E04BA91E1ED5167B0060B309 /* Continue Playing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Continue Playing.png"; sourceTree = "<group>"; };
+		E0626C9C1E941581006BDFB5 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		E0626CA71E94B43E006BDFB5 /* Untitled2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled2.png; sourceTree = "<group>"; };
+		E0626CA81E94B43E006BDFB5 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		E0626CAC1E94B585006BDFB5 /* Untitled3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled3.png; sourceTree = "<group>"; };
+		E0626CAE1E954FCD006BDFB5 /* GameSceneMode3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneMode3.swift; sourceTree = "<group>"; };
+		E0626CB01E954FE7006BDFB5 /* GameOverSceneMode3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverSceneMode3.swift; sourceTree = "<group>"; };
+		E0626CB21E969D85006BDFB5 /* OtherAppsColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OtherAppsColor.png; sourceTree = "<group>"; };
+		E0626CB31E969D85006BDFB5 /* RateUsColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RateUsColor.png; sourceTree = "<group>"; };
+		E0626CB41E969D85006BDFB5 /* ShareUsColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareUsColor.png; sourceTree = "<group>"; };
+		E0626CB81E96C164006BDFB5 /* RateUsButtonGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RateUsButtonGameOver.png; sourceTree = "<group>"; };
+		E0626CBA1E96C218006BDFB5 /* RestartColorGameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartColorGameOver.png; sourceTree = "<group>"; };
+		E0626CBC1E970A8F006BDFB5 /* RestartColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RestartColor.png; sourceTree = "<group>"; };
+		E06A16611ED1594300F929C4 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E06A16641ED15C3700F929C4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E06A16661ED15C3F00F929C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E06A16681ED15C4900F929C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E06A166A1ED15C5100F929C4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E06A166C1ED15C5A00F929C4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E06A166E1ED15C6500F929C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E06A16701ED15C6F00F929C4 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		E06A16721ED15C7900F929C4 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		E06A16741ED15C8C00F929C4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E06A16761ED15C9800F929C4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E06A16781ED15CA200F929C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E06A167A1ED15CAD00F929C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E06AB7B31E85EF8500C76167 /* GameSceneMode2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneMode2.swift; sourceTree = "<group>"; };
+		E06AB7B51E85F19F00C76167 /* GameOverSceneMode2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverSceneMode2.swift; sourceTree = "<group>"; };
+		E08A958D1EDA8E8400A44BBE /* Thickedy Quick.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thickedy Quick.otf"; sourceTree = "<group>"; };
+		E0A342091E9EC44500DDD384 /* SpinFrenzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpinFrenzi.png; sourceTree = "<group>"; };
+		E0A3420B1E9EC63800DDD384 /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
+		E0A3420D1E9ED5D000DDD384 /* GoHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoHome.png; sourceTree = "<group>"; };
+		E0D474D41E81FCFE00B9BA8C /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		E0D887771EE134AE00F61BCD /* CornerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CornerButton.png; sourceTree = "<group>"; };
+		E0E66B8F1EB7CBA600B00A87 /* popspinfrenzi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = popspinfrenzi.wav; sourceTree = "<group>"; };
+		E0E66B931EB7D08800B00A87 /* spinfrenzigameoversound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spinfrenzigameoversound.wav; sourceTree = "<group>"; };
+		E0E66B951EB7D8F800B00A87 /* Hackbeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hackbeat.wav; sourceTree = "<group>"; };
+		E0E66B971EB9805C00B00A87 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		E0E66B981EB9805C00B00A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0EC81211EB776CA003E2825 /* spinfrenzipop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spinfrenzipop.wav; sourceTree = "<group>"; };
+		E0EE6F7E1EA1306D00FCA4C6 /* Confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Confetti.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D368513A1DEE87A900F407C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E04BA91A1ED2AD370060B309 /* Foundation.framework in Frameworks */,
+				E04BA9181ED2ACED0060B309 /* Chartboost.framework in Frameworks */,
+				E04BA9161ED29F840060B309 /* UIKit.framework in Frameworks */,
+				E06A167B1ED15CAD00F929C4 /* SystemConfiguration.framework in Frameworks */,
+				E06A16791ED15CA200F929C4 /* StoreKit.framework in Frameworks */,
+				E06A16771ED15C9800F929C4 /* MessageUI.framework in Frameworks */,
+				E06A16751ED15C8C00F929C4 /* MediaPlayer.framework in Frameworks */,
+				E06A16731ED15C7900F929C4 /* EventKit.framework in Frameworks */,
+				E06A16711ED15C6F00F929C4 /* EventKitUI.framework in Frameworks */,
+				E06A166F1ED15C6500F929C4 /* CoreGraphics.framework in Frameworks */,
+				E06A166D1ED15C5A00F929C4 /* CoreMedia.framework in Frameworks */,
+				E06A166B1ED15C5100F929C4 /* CoreTelephony.framework in Frameworks */,
+				E06A16691ED15C4900F929C4 /* AVFoundation.framework in Frameworks */,
+				E06A16671ED15C3F00F929C4 /* AudioToolbox.framework in Frameworks */,
+				E06A16651ED15C3700F929C4 /* AdSupport.framework in Frameworks */,
+				E06A16621ED1594300F929C4 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36851341DEE87A900F407C5 = {
+			isa = PBXGroup;
+			children = (
+				D368513F1DEE87A900F407C5 /* Shapes */,
+				D368513E1DEE87A900F407C5 /* Products */,
+				E06A16631ED15C3700F929C4 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		D368513E1DEE87A900F407C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D368513D1DEE87A900F407C5 /* Spin Frenzi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D368513F1DEE87A900F407C5 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC81261EB79A6E003E2825 /* Ad Stuff */,
+				E054BF321ED7EE3E000EFF09 /* GameScenes */,
+				E054BF331ED7EE73000EFF09 /* GameOver Scenes */,
+				D36851401DEE87A900F407C5 /* AppDelegate.swift */,
+				D36851481DEE87A900F407C5 /* GameViewController.swift */,
+				E0626C9C1E941581006BDFB5 /* MainMenu.swift */,
+				D368514A1DEE87A900F407C5 /* Main.storyboard */,
+				E04BA91B1ED2ADFD0060B309 /* Spin Frenzi-Bridging-Header.h */,
+				E08A958D1EDA8E8400A44BBE /* Thickedy Quick.otf */,
+				E0EC81251EB79A43003E2825 /* Artwork and Sounds */,
+				E0E66B971EB9805C00B00A87 /* AppIcon.appiconset */,
+				E0E66B981EB9805C00B00A87 /* Assets.xcassets */,
+				D368514F1DEE87A900F407C5 /* LaunchScreen.storyboard */,
+				D36851521DEE87A900F407C5 /* Info.plist */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		E054BF321ED7EE3E000EFF09 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				D36851461DEE87A900F407C5 /* GameScene.swift */,
+				E06AB7B31E85EF8500C76167 /* GameSceneMode2.swift */,
+				E0626CAE1E954FCD006BDFB5 /* GameSceneMode3.swift */,
+			);
+			name = GameScenes;
+			sourceTree = "<group>";
+		};
+		E054BF331ED7EE73000EFF09 /* GameOver Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E0D474D41E81FCFE00B9BA8C /* GameOverScene.swift */,
+				E06AB7B51E85F19F00C76167 /* GameOverSceneMode2.swift */,
+				E0626CB01E954FE7006BDFB5 /* GameOverSceneMode3.swift */,
+			);
+			name = "GameOver Scenes";
+			sourceTree = "<group>";
+		};
+		E06A16631ED15C3700F929C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04BA9191ED2AD370060B309 /* Foundation.framework */,
+				E04BA9151ED29F840060B309 /* UIKit.framework */,
+				E06A167A1ED15CAD00F929C4 /* SystemConfiguration.framework */,
+				E06A16781ED15CA200F929C4 /* StoreKit.framework */,
+				E06A16761ED15C9800F929C4 /* MessageUI.framework */,
+				E06A16741ED15C8C00F929C4 /* MediaPlayer.framework */,
+				E06A16721ED15C7900F929C4 /* EventKit.framework */,
+				E06A16701ED15C6F00F929C4 /* EventKitUI.framework */,
+				E06A166E1ED15C6500F929C4 /* CoreGraphics.framework */,
+				E06A166C1ED15C5A00F929C4 /* CoreMedia.framework */,
+				E06A166A1ED15C5100F929C4 /* CoreTelephony.framework */,
+				E06A16681ED15C4900F929C4 /* AVFoundation.framework */,
+				E06A16661ED15C3F00F929C4 /* AudioToolbox.framework */,
+				E06A16641ED15C3700F929C4 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0EC81251EB79A43003E2825 /* Artwork and Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E0E66B951EB7D8F800B00A87 /* Hackbeat.wav */,
+				E0E66B931EB7D08800B00A87 /* spinfrenzigameoversound.wav */,
+				E0E66B8F1EB7CBA600B00A87 /* popspinfrenzi.wav */,
+				E0EC81211EB776CA003E2825 /* spinfrenzipop.wav */,
+				E0D887771EE134AE00F61BCD /* CornerButton.png */,
+				E0A3420B1E9EC63800DDD384 /* Untitled-2.png */,
+				E0EE6F7E1EA1306D00FCA4C6 /* Confetti.png */,
+				E0A342091E9EC44500DDD384 /* SpinFrenzi.png */,
+				E0626CAC1E94B585006BDFB5 /* Untitled3.png */,
+				E0626CA71E94B43E006BDFB5 /* Untitled2.png */,
+				E0626CA81E94B43E006BDFB5 /* Untitled.png */,
+				E0626CB21E969D85006BDFB5 /* OtherAppsColor.png */,
+				E0626CB31E969D85006BDFB5 /* RateUsColor.png */,
+				E0626CB41E969D85006BDFB5 /* ShareUsColor.png */,
+				E0626CB81E96C164006BDFB5 /* RateUsButtonGameOver.png */,
+				E0626CBA1E96C218006BDFB5 /* RestartColorGameOver.png */,
+				E0626CBC1E970A8F006BDFB5 /* RestartColor.png */,
+				E0430F531E82FD55008B328E /* blueButton.jpg */,
+				E0A3420D1E9ED5D000DDD384 /* GoHome.png */,
+				E04BA91C1ED4C27D0060B309 /* 3.png */,
+				E04BA91E1ED5167B0060B309 /* Continue Playing.png */,
+			);
+			name = "Artwork and Sounds";
+			sourceTree = "<group>";
+		};
+		E0EC81261EB79A6E003E2825 /* Ad Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				E0204E281EBD1B9500541962 /* GoogleService-Info.plist */,
+				E04BA9171ED2ACED0060B309 /* Chartboost.framework */,
+				E06A16611ED1594300F929C4 /* GoogleMobileAds.framework */,
+			);
+			name = "Ad Stuff";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D368513C1DEE87A900F407C5 /* Spin Frenzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36851551DEE87A900F407C5 /* Build configuration list for PBXNativeTarget "Spin Frenzi" */;
+			buildPhases = (
+				D36851391DEE87A900F407C5 /* Sources */,
+				D368513A1DEE87A900F407C5 /* Frameworks */,
+				D368513B1DEE87A900F407C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spin Frenzi";
+			productName = Shapes;
+			productReference = D368513D1DEE87A900F407C5 /* Spin Frenzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36851351DEE87A900F407C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vlad Verba";
+				TargetAttributes = {
+					D368513C1DEE87A900F407C5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NLF8UWRXLD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D36851381DEE87A900F407C5 /* Build configuration list for PBXProject "Spin Frenzi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36851341DEE87A900F407C5;
+			productRefGroup = D368513E1DEE87A900F407C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D368513C1DEE87A900F407C5 /* Spin Frenzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D368513B1DEE87A900F407C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0204E291EBD1B9500541962 /* GoogleService-Info.plist in Resources */,
+				D368514C1DEE87A900F407C5 /* Main.storyboard in Resources */,
+				E0626CB61E969D85006BDFB5 /* RateUsColor.png in Resources */,
+				E04BA91D1ED4C27D0060B309 /* 3.png in Resources */,
+				E08A958E1EDA8E8400A44BBE /* Thickedy Quick.otf in Resources */,
+				E0E66B9A1EB9805C00B00A87 /* Assets.xcassets in Resources */,
+				E0626CB91E96C164006BDFB5 /* RateUsButtonGameOver.png in Resources */,
+				E0626CAA1E94B43E006BDFB5 /* Untitled2.png in Resources */,
+				E0E66B991EB9805C00B00A87 /* AppIcon.appiconset in Resources */,
+				E0626CB71E969D85006BDFB5 /* ShareUsColor.png in Resources */,
+				E0EE6F7F1EA1306D00FCA4C6 /* Confetti.png in Resources */,
+				E0E66B941EB7D08800B00A87 /* spinfrenzigameoversound.wav in Resources */,
+				E0430F541E82FD55008B328E /* blueButton.jpg in Resources */,
+				E0E66B901EB7CBA600B00A87 /* popspinfrenzi.wav in Resources */,
+				E0626CBD1E970A8F006BDFB5 /* RestartColor.png in Resources */,
+				E04BA91F1ED5167B0060B309 /* Continue Playing.png in Resources */,
+				D36851511DEE87A900F407C5 /* LaunchScreen.storyboard in Resources */,
+				E0626CAD1E94B585006BDFB5 /* Untitled3.png in Resources */,
+				E0E66B961EB7D8F800B00A87 /* Hackbeat.wav in Resources */,
+				E0626CBB1E96C218006BDFB5 /* RestartColorGameOver.png in Resources */,
+				E0A3420C1E9EC63800DDD384 /* Untitled-2.png in Resources */,
+				E0A3420E1E9ED5D000DDD384 /* GoHome.png in Resources */,
+				E0D887781EE134AE00F61BCD /* CornerButton.png in Resources */,
+				E0A3420A1E9EC44500DDD384 /* SpinFrenzi.png in Resources */,
+				E0626CB51E969D85006BDFB5 /* OtherAppsColor.png in Resources */,
+				E0EC81221EB776CA003E2825 /* spinfrenzipop.wav in Resources */,
+				E0626CAB1E94B43E006BDFB5 /* Untitled.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36851391DEE87A900F407C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36851471DEE87A900F407C5 /* GameScene.swift in Sources */,
+				D36851491DEE87A900F407C5 /* GameViewController.swift in Sources */,
+				E0626C9D1E941581006BDFB5 /* MainMenu.swift in Sources */,
+				E0D474D51E81FCFE00B9BA8C /* GameOverScene.swift in Sources */,
+				E06AB7B41E85EF8500C76167 /* GameSceneMode2.swift in Sources */,
+				E06AB7B61E85F19F00C76167 /* GameOverSceneMode2.swift in Sources */,
+				E0626CB11E954FE7006BDFB5 /* GameOverSceneMode3.swift in Sources */,
+				D36851411DEE87A900F407C5 /* AppDelegate.swift in Sources */,
+				E0626CAF1E954FCD006BDFB5 /* GameSceneMode3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D368514A1DEE87A900F407C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D368514B1DEE87A900F407C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D368514F1DEE87A900F407C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36851501DEE87A900F407C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36851531DEE87A900F407C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Shapes/Spin Frenzi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D36851541DEE87A900F407C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Shapes/Spin Frenzi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36851561DEE87A900F407C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shapes",
+				);
+				INFOPLIST_FILE = Shapes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.spinfrenzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Shapes/Spin Frenzi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D36851571DEE87A900F407C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NLF8UWRXLD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shapes",
+				);
+				INFOPLIST_FILE = Shapes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vladverba.spinfrenzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Shapes/Spin Frenzi-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36851381DEE87A900F407C5 /* Build configuration list for PBXProject "Spin Frenzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36851531DEE87A900F407C5 /* Debug */,
+				D36851541DEE87A900F407C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36851551DEE87A900F407C5 /* Build configuration list for PBXNativeTarget "Spin Frenzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36851561DEE87A900F407C5 /* Debug */,
+				D36851571DEE87A900F407C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36851351DEE87A900F407C5 /* Project object */;
+}
